@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+.landingPage_container {
+  background-image: url('../public/images/magic-fairytale-book-concept.jpg');
+  background-attachment: fixed;
+  background-position: 20% 63%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.landingPage_caption {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+}
